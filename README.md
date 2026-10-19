@@ -1,5 +1,7 @@
 # Backscatter Analysis App v0.3.12 — User Manual
 
+This app is build on the work of https://github.com/rahilgholami/Circadian-rhythmicity (Berwanger et al., 2025), DOI: 10.1093/pnasnexus/pgaf120
+
 This desktop application analyzes backscatter time-series data with either polynomial or logistic detrending. It separates the slowly changing biomass/growth trend from the oscillating residual signal, smooths the residual, performs FFT/Fourier analysis, fits a cosine, calculates biological summary values, and creates publication-ready plots and tables.
 
 The application is intended for BioLector-style backscatter time series but can also use already-combined data in the expected format.
